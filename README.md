@@ -148,7 +148,7 @@ Os valores da diagonal principal correspondem às classificações corretas. Os 
 
 Neste projeto, a matriz de confusão complementa as métricas numéricas, permitindo identificar quais classes são reconhecidas com maior facilidade e onde ocorrem os principais erros.
 
-![Matriz de confusão](/image-matriz_confusao.png)
+![Matriz de confusão](/image/matriz_confusao.png)
 
 - **Observações sobre os resultados:** 
 O modelo apresentou acurácia de 95%, classificando corretamente 76 dos 80 registros do conjunto de teste.
