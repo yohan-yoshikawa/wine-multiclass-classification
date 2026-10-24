@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.aws/
+credentials
+secrets.*
+config.local.*
+
+# Dataset files: include only if redistribution is allowed and intentional
+data/
+*.csv
+*.parquet
+
+# Model artifacts and generated files
+*.pkl
+*.joblib
+*.model
+*.log
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
